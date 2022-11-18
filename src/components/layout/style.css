@@ -1,0 +1,67 @@
+
+.show-fake-browser.sidebar-page .rs-sidebar {
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .12), 0 0 10px rgba(0, 0, 0, .06);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .12), 0 0 10px rgba(0, 0, 0, .06);
+    height: 100vh;
+}
+
+.show-fake-browser.sidebar-page .rs-sidenav-collapse-in {
+    overflow-y: auto;
+}
+
+.show-fake-browser.sidebar-page .rs-header {
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.show-fake-browser.sidebar-page .rs-content {
+    background-color: #fff;
+    background-color: var(--rs-bg-card);
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.show-fake-browser.sidebar-page .nav-toggle {
+    border-top: 1px solid #e5e5ea;
+    border-top: 1px solidvar(--rs-border-primary);
+}
+
+.show-fake-browser.navbar-page .rs-footer {
+    padding: 20px
+}
+
+.show-fake-browser.login-page .rs-content {
+    height: 500px;
+    margin: 20px;
+    padding: 20px
+}
+
+.show-fake-browser.login-page .rs-footer {
+    padding: 20px
+}
+
+.show-fake-browser.login-page .rs-panel {
+    background: #fff;
+    background: var(--rs-body);
+    margin-top: 70px
+}
+
+.show-fake-browser.sidebar-page .rs-sidenav-collapse-in::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+.show-fake-browser.sidebar-page .rs-sidenav-collapse-in::-webkit-scrollbar-thumb {
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 10rem;
+	border: 1px solid var(--main-bg-color);
+}
+
+.show-fake-browser.sidebar-page .rs-sidenav-collapse-in::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+}
+
+.show-fake-browser.sidebar-page .rs-sidenav-collapse-in::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+}

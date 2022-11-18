@@ -1,0 +1,76 @@
+@import 'rsuite/dist/rsuite.min.css';
+
+.rs-sidenav-subtle::-webkit-scrollbar {
+	width: 9px;
+	height: 9px;
+}
+
+.rs-sidenav-subtle::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10rem;
+	border: 1px solid var(--rs-bg-backdrop);
+}
+
+.rs-sidenav-subtle::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+}
+
+.rs-sidenav-subtle::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+}
+
+.rs-content {
+	border-radius: 15px;
+}
+
+.animated {
+	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+	width: 380px;
+	height: 325px;
+	margin-top: 0px;
+}
+
+.animated::before {
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+	transform-origin: bottom right;
+	animation: animate 6s linear infinite;
+}
+
+.animated::after {
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+	transform-origin: bottom right;
+	animation: animate 6s linear infinite;
+	animation-delay: -3s;
+}
+
+@keyframes animate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.box {
+	position: absolute;
+	border-radius: 8px;
+	inset: 2px;
+	z-index: 10;
+	margin-top: 0px !important;
+}

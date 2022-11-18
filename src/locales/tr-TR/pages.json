@@ -1,0 +1,44 @@
+{
+  "user": {
+    "login": {
+      "title": "Giriş Yap",
+      "username": "Kullanıcı Adı:",
+      "password": "Şifre:",
+      "valid": {
+        "usernameRequired": "Lütfen kullanıcı adınız giriniz.",
+        "passwordRequired": "Lütfen şifrenizi giriniz.",
+        "usernamePassword": ""
+      },
+      "logout_confirm": "Uygulamadan çıkış yapmak istiyor musunuz?"
+    }
+  },
+  "menu": {
+    "home": "Kontrol Paneli",
+    "education": "Bölüm",
+    "educations": "Bölümler"
+  },
+  "home": {
+    "title": "Kontrol Paneli"
+  },
+  "education": {
+    "name": "Bölüm Adı",
+    "language": "Dil",
+    "term": "Dönem",
+    "edication_level": "Eğitim Tipi",
+    "description": "Açıklama",
+    "valid": {
+      "name_required": "Eğitim tipi  alanı zorunludur.",
+      "code_required": "Kod alanı zorunludur.",
+      "code_minLength": "En az 1 karakter girilmelidir.",
+      "code_maxLength": "En fazla 16 karakter girilebilir.",
+      "name_minLength": "En az 1 karakter girilmelidir.",
+      "name_maxLength": "En fazla 256 karakter girilebilir.",
+      "language": "Dil alanı zorunludur.",
+      "term": "Dönem alanı zorunludur.",
+      "edicationLevel": "Eğitim Tipi zorunludur."
+    },
+    "code": "Kod",
+    "add_title": "Yeni Bölüm Oluştur",
+    "title": "Bölüm Listesi"
+  }
+}

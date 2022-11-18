@@ -1,0 +1,44 @@
+{
+  "user": {
+    "login": {
+      "title": "Login",
+      "username": "Username or email:",
+      "password": "Password:",
+      "valid": {
+        "usernameRequired": "Please enter your username.",
+        "usernamePassword": "Please enter your password.",
+        "passwordRequired": ""
+      },
+      "logout_confirm": "Are you sure want to logout?"
+    }
+  },
+  "menu": {
+    "home": "Dashboard",
+    "education": "Education",
+    "educations": "Educations"
+  },
+  "home": {
+    "title": "Dashboard"
+  },
+  "education": {
+    "name": "Education Name",
+    "language": "Language",
+    "term": "Term",
+    "edication_level": "Edication Level",
+    "description": "Description",
+    "valid": {
+      "name_required": "Education Type is required.",
+      "code_required": "Code is required.",
+      "code_minLength": "Minimum 1characters required.",
+      "code_maxLength": "Maximum 16 characters required.",
+      "name_minLength": "Minimum 1characters required.",
+      "name_maxLength": "Maximum 256 characters required.",
+      "language": "Language is required.",
+      "term": "Term is required.",
+      "edicationLevel": "Edication Level is required."
+    },
+    "code": "Code",
+    "add_title": "Add Education ",
+    "title": "Education  List"
+  }
+}
