@@ -4,7 +4,6 @@ import Page from "../../components/layout/Page";
 
 const Home = () => {
   const { t } = useTranslation();
-  console.log("AA");
   return <Page title={t("pages.home.title")}></Page>;
 };
 
