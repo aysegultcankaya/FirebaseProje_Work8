@@ -17,6 +17,7 @@ const Educations = () => {
     onSnapshot(collection(db, "education"), (snapshot) => {
       setData(snapshot.docs.map((doc) => doc.data()));
       setLoading(false);
+      console.log("AA");
     });
   }, []);
 
